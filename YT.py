@@ -858,8 +858,8 @@ class crack:
 						break
 					except (KeyError, IOError):
 						day = ''
-						month = 12''
-						year = 2022''
+						month = ''
+						year = ''
 					except:
 						pass
 					print('\r %sSuccessful😁◨ %s • %s • %s '%(H,user,pw,coki))
